@@ -1,23 +1,20 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Nav from './components/Nav';
-import {routes, route} from "react-router-dom";
+import HomePage from './pages/HomePage';
+import BookingPage from './pages/BookingPage';
+import ConfirmedBooking from './pages/ConfirmedBooking';
+import {Routes, Route} from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
-      <Nav />
-       <main>
-        <h1> Hero Section</h1>
-      </main>
-      <article>
-       <h1>Testimonials</h1>
-      </article>
-      <article>
-       <h1>About section</h1>
-      </article>
+      <Routes>
+        <Route path='/' exact element={<HomePage />}></Route>
+        <Route path='/booking' element={<BookingPage />}></Route>
+        <Route path='/confirmed' element={<ConfirmedBooking />}></Route>
+      </Routes>
       <Footer />
     </>
   );

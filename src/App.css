@@ -267,7 +267,7 @@ select {
 
 .hero-desc,
 .restaurant-desc{
-  width: 34%;
+  width: 50%;
   padding: 2em;
   flex-basis: 1;
 }

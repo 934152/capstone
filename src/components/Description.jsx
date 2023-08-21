@@ -11,7 +11,7 @@ const Description = () => {
                 <p className="desc-text desc">We are a family owned Mediterranean restaurant, 
                     focused on traditional recipes served with a modern twist.</p>
             </div>
-            <img className="desc-img" src={restaurantfood} alt="hero image"/>
+            <img className="desc-img" src={restaurantfood} alt="Little Lemon Restaurant"/>
         </div>
     </>
   )

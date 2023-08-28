@@ -43,6 +43,7 @@ export default function BookingForm({availableTimes, dispatch, submitForm}) {
         <p className="form-desc">Please fill in the form below accurately to enable us serve you nicely.</p>
         <form onSubmit={handleSubmit}>
           <div className="seperate">
+            <p className="form-desc">Where would you like to sit?</p>
             <label for="inside">Inside</label>
             <input type="radio" id="inside" name="location" value={formData.inside} onChange={handleFormChange}/>
             <label for="outside">Outside</label>

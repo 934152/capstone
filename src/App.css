@@ -207,13 +207,14 @@ main {
 }
 
 form{
-  background-color: #faecdc;
+  background-color: #495E57;
   width:65%;
   margin-inline: auto;
   text-align: center;
   padding: 2em 1em;
   margin-bottom: 1.5em;
   border-radius: 20px;
+  color:#FFFFFF;
 }
 
 .seperate{
